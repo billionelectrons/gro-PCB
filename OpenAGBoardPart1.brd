@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.05" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.005" altunitdist="inch" altunit="inch"/>
+<grid distance="0.025" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.005" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
@@ -173,8 +173,7 @@
 <wire x1="20" y1="40" x2="0" y2="40" width="0.254" layer="21"/>
 <wire x1="20" y1="60" x2="0" y2="60" width="0.254" layer="21"/>
 <text x="33" y="59" size="1.27" layer="21" font="vector" ratio="15">GREEN</text>
-<text x="53" y="59" size="1.27" layer="21" font="vector" ratio="15">ORANGE</text>
-<text x="73" y="59" size="1.27" layer="21" font="vector" ratio="15">BLUE</text>
+<text x="53" y="59" size="1.27" layer="21" font="vector" ratio="15">BLUE</text>
 <text x="9.525" y="76.2" size="1.27" layer="21" font="vector" ratio="15" rot="SR270">3.3V</text>
 <text x="4.445" y="76.2" size="1.27" layer="21" font="vector" ratio="15" rot="SR270">3.3V</text>
 <text x="9.525" y="55.88" size="1.27" layer="21" font="vector" ratio="15" rot="SR270">3.3V</text>
@@ -359,6 +358,7 @@
 <wire x1="62.23" y1="45.72" x2="60.96" y2="44.45" width="0.254" layer="21"/>
 <wire x1="60.96" y1="44.45" x2="38.1" y2="44.45" width="0.254" layer="21"/>
 <text x="43.18" y="41.91" size="1.27" layer="21" font="vector" ratio="10">12/20/2015</text>
+<text x="73" y="59" size="1.27" layer="21" font="vector" ratio="15">YELLOW</text>
 </plain>
 <libraries>
 <library name="SparkFun-Connectors">
@@ -1064,12 +1064,12 @@ design rules under a new name.</description>
 <element name="U1" library="SparkFun-Boards" package="DUEMILANOVE_VIAS" value="ARDUINO_SHIELDNO_SILK" x="76.2" y="50.8" rot="R180"/>
 <element name="A_EXP" library="SparkFun-Connectors" package="1X02" value="" x="25.4" y="6.35" rot="R270"/>
 <element name="U3" library="SparkFun-PowerIC" package="TO220-IGO" value="LD1117" x="45" y="75"/>
-<element name="D3" library="adafruit" package="LED5MM" value="BLUE" x="70" y="60"/>
-<element name="D2" library="adafruit" package="LED5MM" value="ORANGE" x="50" y="60"/>
+<element name="D3" library="adafruit" package="LED5MM" value="YELLOW" x="70" y="60"/>
+<element name="D2" library="adafruit" package="LED5MM" value="BLUE" x="50" y="60"/>
 <element name="D1" library="adafruit" package="LED5MM" value="GREEN" x="30" y="60"/>
 <element name="R1" library="SparkFun-Passives" package="AXIAL-0.4" value="RES_GR" x="30" y="53"/>
-<element name="R2" library="SparkFun-Passives" package="AXIAL-0.4" value="RES_OR" x="50" y="53"/>
-<element name="R3" library="SparkFun-Passives" package="AXIAL-0.4" value="RES_BL" x="70" y="53"/>
+<element name="R2" library="SparkFun-Passives" package="AXIAL-0.4" value="RES_BL" x="50" y="53"/>
+<element name="R3" library="SparkFun-Passives" package="AXIAL-0.4" value="RES_YL" x="70" y="53"/>
 <element name="A0-A1" library="SparkFun-Connectors" package="1X04_NO_SILK_ALL_ROUND" value="" x="18" y="75.46" rot="R270"/>
 <element name="A2-A3" library="SparkFun-Connectors" package="1X04_NO_SILK_ALL_ROUND" value="" x="18" y="55.46" rot="R270"/>
 <element name="A4-A5" library="SparkFun-Connectors" package="1X04_NO_SILK_ALL_ROUND" value="" x="18" y="35.46" rot="R270"/>

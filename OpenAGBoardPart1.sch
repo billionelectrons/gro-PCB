@@ -7769,12 +7769,12 @@ SMT- SWCH-08247</description>
 <part name="U1" library="SparkFun-Boards" deviceset="ARDUINO_SHIELD" device="NO_SILK"/>
 <part name="A_EXP" library="SparkFun-Connectors" deviceset="M02" device="PTH"/>
 <part name="U3" library="SparkFun-PowerIC" deviceset="V_REG_78XX" device="SINK" value="LD1117"/>
-<part name="D3" library="adafruit" deviceset="LED" device="5MM" value="BLUE"/>
-<part name="D2" library="adafruit" deviceset="LED" device="5MM" value="ORANGE"/>
+<part name="D3" library="adafruit" deviceset="LED" device="5MM" value="YELLOW"/>
+<part name="D2" library="adafruit" deviceset="LED" device="5MM" value="BLUE"/>
 <part name="D1" library="adafruit" deviceset="LED" device="5MM" value="GREEN"/>
 <part name="R1" library="SparkFun-Passives" deviceset="RESISTOR" device="PTH-1/4W" value="RES_GR"/>
-<part name="R2" library="SparkFun-Passives" deviceset="RESISTOR" device="PTH-1/4W" value="RES_OR"/>
-<part name="R3" library="SparkFun-Passives" deviceset="RESISTOR" device="PTH-1/4W" value="RES_BL"/>
+<part name="R2" library="SparkFun-Passives" deviceset="RESISTOR" device="PTH-1/4W" value="RES_BL"/>
+<part name="R3" library="SparkFun-Passives" deviceset="RESISTOR" device="PTH-1/4W" value="RES_YL"/>
 <part name="GND5" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="SUPPLY6" library="SparkFun-Aesthetics" deviceset="12V" device=""/>
 <part name="GND6" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
